@@ -1,0 +1,46 @@
+{
+    "version": "2.1",
+    "contract": {
+        "customer": "ReliefValidationLimited(RVL)",
+        "expiration": {
+            "day": 12,
+            "month": 8,
+            "year": 2024
+        },
+        "hwids": [
+            "A70KQqNHQDKmhFID"
+        ],
+        "products": [
+            "iface"
+        ],
+        "idkit": {
+            "database_size": 0,
+            "max_client_connections": 0
+        },
+        "dot": {
+            "evaluation": true,
+            "mobile": {
+                "face": {
+                    "enabled": true,
+                    "features": {
+                        "matching": true,
+                        "passiveLiveness": true
+                    }
+                },
+                "document": {
+                    "enabled": true
+                },
+                "nfc": {
+                    "enabled": true
+                },
+                "faceLite": {
+                    "enabled": true
+                },
+                "features": {
+                    "realTimeTransactionReportingEnabled": true
+                }
+            }
+        }
+    },
+    "contract_signature": "YX+DFL1Myg5BShfdwlmpwupIQgB3A6Wxadazk88Q/h7ryQ/MgYxIEZvkA2yHuekBt/e/8ewk0pYohP4W8CtquPiuuuvGFdeGgE59XtvAlZQ16IG5yGzzHLDvyGFjGPiaWt3BhU0hsmmlvbOZG83fY+FZZqN16t/3TXxkXpBxMDU="
+}
